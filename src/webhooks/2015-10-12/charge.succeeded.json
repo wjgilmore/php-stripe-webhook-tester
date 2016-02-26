@@ -1,0 +1,47 @@
+{
+  "id": "evt_00000000000000",
+  "object": "event",
+  "api_version": "2015-10-12",
+  "created": 1456511725,
+  "data": {
+    "object": {
+      "id": "sub_00000000000000",
+      "object": "subscription",
+      "application_fee_percent": null,
+      "cancel_at_period_end": false,
+      "canceled_at": null,
+      "current_period_end": 1488134125,
+      "current_period_start": 1456511725,
+      "customer": "cus_00000000000000",
+      "discount": null,
+      "ended_at": null,
+      "metadata": {
+      },
+      "plan": {
+        "id": "premium-yearly",
+        "object": "plan",
+        "amount": 5999,
+        "created": 1455120868,
+        "currency": "usd",
+        "interval": "year",
+        "interval_count": 1,
+        "livemode": false,
+        "metadata": {
+        },
+        "name": "Premium Annual Subscription",
+        "statement_descriptor": "premium",
+        "trial_period_days": null
+      },
+      "quantity": 1,
+      "start": 1456511725,
+      "status": "active",
+      "tax_percent": null,
+      "trial_end": null,
+      "trial_start": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": "req_00000000000000",
+  "type": "customer.subscription.created"
+}
