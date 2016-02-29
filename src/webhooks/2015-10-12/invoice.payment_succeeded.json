@@ -1,0 +1,86 @@
+{
+  "created": 1326853478,
+  "livemode": false,
+  "id": "evt_00000000000000",
+  "type": "invoice.payment_succeeded",
+  "object": "event",
+  "request": null,
+  "pending_webhooks": 1,
+  "api_version": "2015-10-12",
+  "data": {
+    "object": {
+      "id": "in_00000000000000",
+      "object": "invoice",
+      "amount_due": 5999,
+      "application_fee": null,
+      "attempt_count": 1,
+      "attempted": true,
+      "charge": "_00000000000000",
+      "closed": true,
+      "currency": "usd",
+      "customer": "cus_00000000000000",
+      "date": 1456511725,
+      "description": null,
+      "discount": null,
+      "ending_balance": 0,
+      "forgiven": false,
+      "lines": {
+        "data": [
+          {
+            "id": "sub_7zuEVzluW7GWGO",
+            "object": "line_item",
+            "amount": 5999,
+            "currency": "usd",
+            "description": null,
+            "discountable": true,
+            "livemode": true,
+            "metadata": {
+            },
+            "period": {
+              "start": 1488301375,
+              "end": 1519837375
+            },
+            "plan": {
+              "id": "premium-yearly",
+              "object": "plan",
+              "amount": 5999,
+              "created": 1455120868,
+              "currency": "usd",
+              "interval": "year",
+              "interval_count": 1,
+              "livemode": false,
+              "metadata": {
+              },
+              "name": "Premium Annual Subscription",
+              "statement_descriptor": "premium",
+              "trial_period_days": null
+            },
+            "proration": false,
+            "quantity": 1,
+            "subscription": null,
+            "type": "subscription"
+          }
+        ],
+        "total_count": 1,
+        "object": "list",
+        "url": "/v1/invoices/in_17iqQzBMJgdzTO7oQ89BiEir/lines"
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "next_payment_attempt": null,
+      "paid": true,
+      "period_end": 1456511725,
+      "period_start": 1456511593,
+      "receipt_number": null,
+      "starting_balance": 0,
+      "statement_descriptor": null,
+      "subscription": "sub_00000000000000",
+      "subtotal": 5999,
+      "tax": null,
+      "tax_percent": null,
+      "total": 5999,
+      "webhooks_delivered_at": 1456511735
+    }
+  }
+}
